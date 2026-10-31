@@ -757,6 +757,28 @@ def create_gemini_chat_model(
     if thinking_level is not None:
         init_kwargs["thinking_level"] = thinking_level
 
+    # Support optional [gcp_service_account] block in Streamlit Cloud st.secrets
+    # Strictly requires a least-privilege GCP Service Account (roles/aiplatform.user)
+    if "credentials" not in init_kwargs:
+        try:
+            import streamlit as st
+            from google.oauth2 import service_account
+
+            if "gcp_service_account" in st.secrets:
+                sa_info = dict(st.secrets["gcp_service_account"])
+                if sa_info.get("type") != "service_account":
+                    raise ValueError(
+                        "Only least-privilege GCP 'service_account' credentials are permitted in [gcp_service_account]."
+                    )
+                init_kwargs["credentials"] = (
+                    service_account.Credentials.from_service_account_info(
+                        sa_info,
+                        scopes=["https://www.googleapis.com/auth/cloud-platform"],
+                    )
+                )
+        except Exception:
+            pass
+
     return ChatGoogleGenerativeAI(**init_kwargs)
 
 

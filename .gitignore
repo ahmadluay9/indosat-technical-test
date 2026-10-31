@@ -1,7 +1,21 @@
-# Environment variables & secrets
+# Environment variables, Streamlit TOML secrets & GCP Service Account keys
 .env
 .env.*
 !.env.example
+.streamlit/secrets.toml
+secrets.toml
+*secrets*.toml
+*.secrets.toml
+!pyproject.toml
+service-account.json
+service_account.json
+*service-account*.json
+*service_account*.json
+*credentials*.json
+gcp-key*.json
+*.pem
+*.key
+*.p12
 
 # Python bytecode & build artifacts
 __pycache__/

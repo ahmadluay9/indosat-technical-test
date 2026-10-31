@@ -103,14 +103,23 @@ make install
 uv pip install -r requirements.txt
 ```
 
-### 2. Configure `.env`
-Copy `.env.example` to `.env` (already pre-configured in this workspace with `API_KEY` and `GEMINI_MODEL=gemini-3.8-flash`):
+### 2. Configure `.env` & Streamlit `.toml` Secrets
+Copy `.env.example` to `.env` and generate `.streamlit/secrets.toml` (plus optional GCP `service-account.json` key):
 ```env
 GOOGLE_GENAI_USE_VERTEXAI=true
-GOOGLE_CLOUD_PROJECT=eikon-dev-ai-team
+GOOGLE_CLOUD_PROJECT=your-project-id
 GOOGLE_CLOUD_LOCATION=global
 GEMINI_MODEL=gemini-3.8-flash
-API_KEY=ioh_ret_2026_9f8e7d6c5b4a3e2f1d0c9b8a7e6f5d4c
+API_KEY=your_generated_api_key
+```
+
+To generate `.streamlit/secrets.toml` (and optionally create/download a GCP Service Account JSON key via `gcloud`):
+```bash
+# Generate .streamlit/secrets.toml and secrets.toml from .env (and service-account.json if present)
+python generate_service_account_secrets.py
+
+# Or provision a new GCP Service Account key via gcloud and embed [gcp_service_account] into secrets.toml
+python generate_service_account_secrets.py --create-gcp-key
 ```
 
 ### 3. Launch the Streamlit Application (`make run` / `make streamlit`)
@@ -119,9 +128,9 @@ make run
 # Or directly:
 streamlit run streamlit_app.py
 ```
-Then open the authenticated URL in your browser:
+Then open the authenticated URL in your browser using the `API_KEY` from `.env`:
 ```text
-http://localhost:8501/?apikey=ioh_ret_2026_9f8e7d6c5b4a3e2f1d0c9b8a7e6f5d4c
+http://localhost:8501/?apikey=<YOUR_API_KEY>
 ```
 
 ### 4. Run the Full Analytical Pipeline (`make pipeline`)

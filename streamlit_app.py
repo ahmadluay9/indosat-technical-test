@@ -78,13 +78,40 @@ def _get_url_apikey_param() -> str:
         return ""
 
 
+def _get_secret_or_env(key: str, default: str = "") -> str:
+    """Read a configuration key from `.env` / `os.environ` or Streamlit Cloud `st.secrets`."""
+    val = os.getenv(key, "").strip()
+    if val:
+        return val
+    try:
+        if key in st.secrets:
+            s_val = st.secrets[key]
+            os.environ[key] = str(s_val)
+            return str(s_val).strip()
+    except Exception:
+        pass
+    return default
+
+
 def enforce_url_api_key_authentication() -> None:
     """
     Strictly enforce that the Streamlit app can ONLY be accessed when `?apikey=API_KEY`
-    is present in the URL and matches `API_KEY` in `.env` using constant-time comparison.
+    is present in the URL and matches `API_KEY` in `.env` or `st.secrets` using constant-time comparison.
     """
     load_dotenv(dotenv_path=ENV_PATH, override=True)
-    expected_key = os.getenv("API_KEY", "").strip()
+    # Sync top-level Streamlit Cloud secrets into os.environ for LangChain / Google GenAI
+    for env_key in (
+        "API_KEY",
+        "GEMINI_MODEL",
+        "GOOGLE_GENAI_USE_VERTEXAI",
+        "GOOGLE_CLOUD_PROJECT",
+        "GOOGLE_CLOUD_LOCATION",
+        "GOOGLE_API_KEY",
+        "GEMINI_API_KEY",
+    ):
+        _get_secret_or_env(env_key)
+
+    expected_key = _get_secret_or_env("API_KEY")
     provided_key = _get_url_apikey_param()
 
     if not expected_key:
@@ -234,9 +261,9 @@ with st.sidebar:
         help="Controls internal reasoning budget for Gemini 3+ models.",
     )
 
-    vertex_flag = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "true")
-    gcp_project = os.getenv("GOOGLE_CLOUD_PROJECT", "eikon-dev-ai-team")
-    gcp_location = os.getenv("GOOGLE_CLOUD_LOCATION", "global")
+    vertex_flag = _get_secret_or_env("GOOGLE_GENAI_USE_VERTEXAI", "true")
+    gcp_project = _get_secret_or_env("GOOGLE_CLOUD_PROJECT", "not-configured")
+    gcp_location = _get_secret_or_env("GOOGLE_CLOUD_LOCATION", "global")
     st.markdown(
         f"""
         **Backend Configuration (`.env`)**
