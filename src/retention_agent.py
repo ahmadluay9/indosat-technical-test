@@ -723,6 +723,9 @@ def extract_gemini_text(response: Any) -> str:
     return str(content).strip()
 
 
+ALLOWED_GEMINI_MODEL = "gemini-3.8-flash"
+
+
 def create_gemini_chat_model(
     model: Optional[str] = None,
     temperature: float = 1.0,
@@ -733,7 +736,7 @@ def create_gemini_chat_model(
     **kwargs: Any,
 ) -> ChatGoogleGenerativeAI:
     """
-    Instantiate `ChatGoogleGenerativeAI` using `gemini-3.8-flash` (or `GEMINI_MODEL` from `.env`).
+    Instantiate `ChatGoogleGenerativeAI` strictly locked to `gemini-3.8-flash`.
 
     Follows the official `langchain-google-genai` v4+ integration guide:
       - Automatically selects Gemini Enterprise Agent Platform (Vertex AI) when
@@ -745,7 +748,11 @@ def create_gemini_chat_model(
         native tool calling (`bind_tools`), and `with_structured_output(..., method="json_schema")`.
     """
     load_dotenv(override=False)
-    resolved_model = model or os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+    if model is not None and model.strip() != ALLOWED_GEMINI_MODEL:
+        raise ValueError(
+            f"Only '{ALLOWED_GEMINI_MODEL}' is allowed (received '{model}')."
+        )
+    resolved_model = ALLOWED_GEMINI_MODEL
     init_kwargs: Dict[str, Any] = {
         "model": resolved_model,
         "temperature": temperature,

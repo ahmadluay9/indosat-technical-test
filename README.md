@@ -1,5 +1,7 @@
 # IOH Customer Churn, Survival Hazard & Agentic Retention Intelligence
 
+![IOH Streamlit Application Home](img/streamlit-home.png)
+
 An end-to-end **Data Science, Survival Hazard, Economic Uplift, and LangGraph / `ChatGoogleGenerativeAI` (`gemini-3.8-flash`) Agentic Retention** platform built for the **Indosat Ooredoo Hutchison (IOH) Data Scientist Technical Assessment**.
 
 Rather than treating customer churn solely as a static binary classification problem, this repository decouples **leak-free Dual-Horizon survival & acute risk estimation** from **ARPU-scaled Expected Net Economic Value (ENEV) optimization**, and operationalizes the resulting intelligence through a deterministic-first, human-governed **LangGraph `StateGraph`** and an interactive **Streamlit Co-Pilot Application** ([`streamlit_app.py`](streamlit_app.py)).
@@ -80,7 +82,9 @@ flowchart TD
 
 ## Interactive Streamlit App & URL API Key Security ([`streamlit_app.py`](streamlit_app.py))
 
-The platform includes a 5-tab interactive Streamlit application ([`streamlit_app.py`](streamlit_app.py)) featuring live `ChatGoogleGenerativeAI(model="gemini-3.8-flash")` LangGraph execution and specialist tool-calling chat.
+The platform includes a 6-tab interactive Streamlit application ([`streamlit_app.py`](streamlit_app.py)) featuring the full notebook report, executive command center, economic simulator, and live `ChatGoogleGenerativeAI(model="gemini-3.8-flash")` LangGraph execution with specialist tool-calling chat.
+
+![IOH Streamlit Platform Command Center](img/streamlit-home.png)
 
 ### URL Query-Parameter Authentication (`?apikey=API_KEY`)
 By design, [`streamlit_app.py`](streamlit_app.py) can **ONLY be accessed by passing the valid `API_KEY` (stored in `.env`) in the URL query string**:
@@ -163,5 +167,6 @@ indosat-technical-test/
 │   ├── retention_agent.py                          # LangGraph StateGraph & ChatGoogleGenerativeAI (gemini-3.8-flash)
 │   └── figures.py                                  # Publication-grade 8-figure suite generator
 ├── figures/                                        # High-resolution diagnostic & architectural charts (fig1..fig8)
+├── img/                                            # Brand logo & Streamlit UI screenshots (Indosat_Ooredoo_Hutchison.png, streamlit-home.png)
 └── outputs/                                        # 17 exported CSVs, JSON contracts & Mermaid graph
 ```
