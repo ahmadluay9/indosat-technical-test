@@ -732,7 +732,7 @@ def create_gemini_chat_model(
     thinking_level: Optional[str] = None,
     max_tokens: Optional[int] = None,
     timeout: Optional[int] = 60,
-    max_retries: int = 2,
+    max_retries: int = 3,
     **kwargs: Any,
 ) -> ChatGoogleGenerativeAI:
     """
