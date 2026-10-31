@@ -1,0 +1,33 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	context_ingestion_node(context_ingestion_node)
+	deterministic_guardrail_node(deterministic_guardrail_node)
+	silent_monitoring_node(silent_monitoring_node)
+	billing_remediation_node(billing_remediation_node)
+	noc_technical_triage_node(noc_technical_triage_node)
+	commercial_retention_node(commercial_retention_node)
+	llm_copilot_synthesis_node(llm_copilot_synthesis_node)
+	human_in_the_loop_gate_node(human_in_the_loop_gate_node)
+	counterfactual_logger_node(counterfactual_logger_node)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> context_ingestion_node;
+	billing_remediation_node --> llm_copilot_synthesis_node;
+	commercial_retention_node --> llm_copilot_synthesis_node;
+	context_ingestion_node --> deterministic_guardrail_node;
+	deterministic_guardrail_node -.-> billing_remediation_node;
+	deterministic_guardrail_node -.-> commercial_retention_node;
+	deterministic_guardrail_node -.-> noc_technical_triage_node;
+	deterministic_guardrail_node -.-> silent_monitoring_node;
+	human_in_the_loop_gate_node --> counterfactual_logger_node;
+	llm_copilot_synthesis_node --> human_in_the_loop_gate_node;
+	noc_technical_triage_node --> llm_copilot_synthesis_node;
+	silent_monitoring_node --> counterfactual_logger_node;
+	counterfactual_logger_node --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

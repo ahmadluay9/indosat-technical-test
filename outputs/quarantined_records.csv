@@ -1,0 +1,2 @@
+customerId,gender,age,partner,dependents,region,contractType,paperlessBilling,paymentMethod,churnDate,customerID,cust_num,quarantine_reason
+IOH-1pictures,Female,43,Yes,Yes,Medan,Two year,No,Bank transfer (automatic),,IOH-1pictures,,Corrupted customerId format ('IOH-1pictures') & zero records in service_usage/support_interactions

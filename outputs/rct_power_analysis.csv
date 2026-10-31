@@ -1,0 +1,5 @@
+experiment_arm,control_churn_rate,treated_churn_rate,target_effect_size,min_control_sample_80pct_power,total_sample_50_50_rct,total_targeted_20pct_init_holdout,total_targeted_10pct_steady_holdout,total_targeted_legacy_5pct_holdout
+1. Premium Retention Tier (Rp 450k Bundle),0.5,0.25,50% relative reduction (25.0 pp absolute),58,116,290,580,1160
+2. Basic Retention Tier (Rp 150k Credit/Rebate),0.5,0.4,20% relative reduction (10.0 pp absolute),388,776,1940,3880,7760
+3. Stage-0 Pre-Second-Bill Month-1 MtM Nudge (Rp 0 Subsidy),0.4667,0.3267,30% relative reduction on 46.7% Month-2 cliff (14.0 pp absolute),191,382,382,382,3820
+4. Below-Threshold Border Probe (Sleeping-Dog / Threshold Check),0.08,0.03,Detect 5.0 pp border-zone churn shift (8.0% -> 3.0%),326,652,3260,6520,6520

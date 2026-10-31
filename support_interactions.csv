@@ -1,0 +1,269 @@
+customerId,interactionDate,interactionType,supportTopic,resolutionStatus
+IOH-001,2025-09-02,chat,contract_question,Resolved
+IOH-003,12/10/2025,call,billing_inquiry,Pending
+IOH-005,2025-06-15,call,technical_issue,Pending
+IOH-007,2025-08-20,email,Billing Inquiry,Resolved
+IOH-010,20/07/2025,chat,technical_issue,Resolved
+IOH-010,2025-08-05,call,technical_issue,Pending
+IOH-013,18/10/2025,chat,contract_question,Resolved
+IOH-015,2025-07-11,call,technical_issue,Pending
+IOH-018,01/10/2025,email,billing_inquiry,Resolved
+IOH-020,2025-09-22,call,technical_issue,Pending
+IOH-021,2025-10-15,chat,Billing Inquiry,Resolved
+IOH-025,28/10/2025,call,billing_inquiry,Pending
+IOH-027,2025-09-10,chat,technical_issue,Resolved
+IOH-030,2025-04-10,chat,Technical Issue,Pending
+IOH-031,01/09/2025,call,technical_issue,Pending
+IOH-034,2025-10-22,chat,contract_question,Resolved
+IOH-036,2025-10-01,call,technical_issue,Pending
+IOH-038,15/09/2025,email,Billing Inquiry,Resolved
+IOH-040,18/08/2025,chat,technical_issue,Pending
+IOH-042,2025-09-05,call,billing_inquiry,Resolved
+IOH-044,2025-11-01,call,contract_question,Pending
+IOH-046,2025-10-12,chat,Billing Inquiry,Resolved
+IOH-048,10/07/2025,call,technical_issue,Pending
+IOH-051,20/06/2025,chat,technical_issue,Resolved
+IOH-051,2025-06-22,call,Technical Issue,Pending
+IOH-053,2025-10-18,email,billing_inquiry,Resolved
+IOH-055,05/10/2025,chat,contract_question,Resolved
+IOH-057,15/09/2025,call,billing_inquiry,Pending
+IOH-060,2025-09-30,chat,Billing Inquiry,Resolved
+IOH-063,2025-10-25,call,technical_issue,Pending
+IOH-065,11/10/2025,email,contract_question,Resolved
+IOH-067,2025-10-02,chat,billing_inquiry,Resolved
+IOH-069,19/09/2025,call,Billing Inquiry,Resolved
+IOH-071,05/08/2025,call,technical_issue,Pending
+IOH-074,2025-10-10,chat,Technical Issue,Resolved
+IOH-076,08/10/2025,email,billing_inquiry,Resolved
+IOH-078,18/09/2025,call,contract_question,Pending
+IOH-081,2025-10-10,call,technical_issue,Pending
+IOH-083,14/09/2025,chat,Billing Inquiry,Resolved
+IOH-085,2025-10-01,email,contract_question,Resolved
+IOH-087,20/07/2025,call,technical_issue,Resolved
+IOH-087,2025-07-22,call,Technical Issue,Pending
+IOH-089,03/10/2025,chat,billing_inquiry,Resolved
+IOH-091,25/08/2025,call,technical_issue,Pending
+IOH-093,2025-09-15,email,contract_question,Resolved
+IOH-095,2025-10-05,chat,Billing Inquiry,Resolved
+IOH-096,28/09/2025,call,billing_inquiry,Pending
+IOH-098,2025-10-11,chat,Technical Issue,Resolved
+IOH-101,2025-11-01,call,technical_issue,Pending
+IOH-103,10/10/2025,email,contract_question,Resolved
+IOH-105,2025-09-08,call,technical_issue,Pending
+IOH-108,2025-10-15,chat,billing_inquiry,Resolved
+IOH-111,28/09/2025,call,technical_issue,Resolved
+IOH-111,2025-10-01,call,Technical Issue,Pending
+IOH-113,04/10/2025,email,Billing Inquiry,Resolved
+IOH-115,2025-08-10,call,technical_issue,Pending
+IOH-117,2025-09-20,chat,contract_question,Resolved
+IOH-119,12/10/2025,email,billing_inquiry,Resolved
+IOH-121,2025-09-25,call,technical_issue,Pending
+IOH-123,2025-10-08,chat,Billing Inquiry,Resolved
+IOH-127,01/07/2025,call,technical_issue,Pending
+IOH-129,2025-10-14,email,contract_question,Resolved
+IOH-131,2025-10-15,call,technical_issue,Pending
+IOH-133,11/10/2025,email,contract_question,Resolved
+IOH-136,2025-09-10,call,technical_issue,Pending
+IOH-138,2025-10-05,chat,Billing Inquiry,Resolved
+IOH-140,2025-11-04,call,billing_inquiry,Pending
+IOH-142,2025-09-25,chat,contract_question,Resolved
+IOH-144,18/10/2025,call,billing_inquiry,Pending
+IOH-146,2025-10-20,email,Billing Inquiry,Resolved
+IOH-148,2025-08-15,call,technical_issue,Pending
+IOH-151,10/07/2025,chat,technical_issue,Resolved
+IOH-151,2025-07-12,call,Technical Issue,Pending
+IOH-153,2025-10-25,email,billing_inquiry,Resolved
+IOH-155,08/10/2025,chat,contract_question,Resolved
+IOH-157,2025-10-22,call,billing_inquiry,Pending
+IOH-160,2025-10-18,chat,Billing Inquiry,Resolved
+IOH-163,22/09/2025,call,technical_issue,Pending
+IOH-165,2025-10-14,email,contract_question,Resolved
+IOH-167,2025-10-06,chat,billing_inquiry,Resolved
+IOH-169,11/10/2025,call,Billing Inquiry,Resolved
+IOH-171,2025-11-05,call,technical_issue,Pending
+IOH-174,2025-10-16,chat,Technical Issue,Resolved
+IOH-176,02/10/2025,email,billing_inquiry,Resolved
+IOH-178,2025-10-05,call,contract_question,Pending
+IOH-181,2025-08-28,call,technical_issue,Pending
+IOH-183,21/09/2025,chat,Billing Inquiry,Resolved
+IOH-185,2025-10-03,email,contract_question,Resolved
+IOH-187,20/08/2025,call,technical_issue,Resolved
+IOH-187,2025-08-22,call,Technical Issue,Pending
+IOH-189,2025-10-07,chat,billing_inquiry,Resolved
+IOH-191,2025-10-01,call,technical_issue,Pending
+IOH-193,18/09/2025,email,contract_question,Resolved
+IOH-195,2025-10-09,chat,Billing Inquiry,Resolved
+IOH-198,2025-10-13,call,billing_inquiry,Pending
+IOH-201,2025-11-10,call,technical_issue,Pending
+IOH-203,2025-10-11,email,contract_question,Resolved
+IOH-205,15/10/2025,call,technical_issue,Pending
+IOH-208,2025-10-17,chat,billing_inquiry,Resolved
+IOH-211,05/09/2025,call,technical_issue,Resolved
+IOH-211,2025-09-07,call,Technical Issue,Pending
+IOH-215,2025-08-25,call,technical_issue,Pending
+IOH-221,2025-11-12,call,technical_issue,Pending
+IOH-224,2025-11-05,chat,contract_question,Resolved
+IOH-226,2025-10-18,call,technical_issue,Pending
+IOH-228,11/11/2025,email,Billing Inquiry,Resolved
+IOH-230,2025-11-19,call,billing_inquiry,Pending
+IOH-232,2025-10-28,chat,contract_question,Resolved
+IOH-234,20/11/2025,call,billing_inquiry,Pending
+IOH-236,2025-11-15,email,Billing Inquiry,Resolved
+IOH-238,2025-09-21,call,technical_issue,Pending
+IOH-241,18/08/2025,chat,technical_issue,Resolved
+IOH-241,2025-08-20,call,Technical Issue,Pending
+IOH-243,2025-11-10,email,billing_inquiry,Resolved
+IOH-245,12/11/2025,chat,contract_question,Resolved
+IOH-247,2025-11-01,call,billing_inquiry,Pending
+IOH-250,2025-11-21,chat,Billing Inquiry,Resolved
+IOH-253,10/10/2025,call,technical_issue,Pending
+IOH-255,2025-11-17,email,contract_question,Resolved
+IOH-257,2025-11-08,chat,billing_inquiry,Resolved
+IOH-259,21/10/2025,call,Billing Inquiry,Resolved
+IOH-261,2025-09-15,call,technical_issue,Pending
+IOH-264,2025-11-22,chat,Technical Issue,Resolved
+IOH-266,12/11/2025,email,billing_inquiry,Resolved
+IOH-268,2025-11-18,call,contract_question,Pending
+IOH-271,2025-10-08,call,technical_issue,Pending
+IOH-273,25/09/2025,chat,Billing Inquiry,Resolved
+IOH-275,2025-11-06,email,contract_question,Resolved
+IOH-277,22/09/2025,call,technical_issue,Resolved
+IOH-277,2025-09-24,call,Technical Issue,Pending
+IOH-279,2025-11-11,chat,billing_inquiry,Resolved
+IOH-281,2025-11-02,call,technical_issue,Pending
+IOH-283,21/10/2025,email,contract_question,Resolved
+IOH-285,2025-11-13,chat,Billing Inquiry,Resolved
+IOH-288,24/10/2025,call,billing_inquiry,Pending
+IOH-291,12/10/2025,call,technical_issue,Pending
+IOH-293,2025-10-18,email,contract_question,Resolved
+IOH-295,20/09/2025,call,technical_issue,Pending
+IOH-298,2025-10-25,chat,billing_inquiry,Resolved
+IOH-301,2025-11-22,call,technical_issue,Pending
+IOH-305,28/10/2025,call,technical_issue,Pending
+IOH-311,12/09/2025,call,technical_issue,Resolved
+IOH-311,2025-09-14,call,Technical Issue,Pending
+IOH-315,28/07/2025,call,technical_issue,Pending
+IOH-321,2025-11-01,call,technical_issue,Pending
+IOH-325,10/10/2025,call,technical_issue,Pending
+IOH-331,2025-09-18,call,technical_issue,Pending
+IOH-335,10/08/2025,call,technical_issue,Pending
+IOH-341,2025-11-15,call,technical_issue,Pending
+IOH-345,20/10/2025,call,billing_inquiry,Pending
+IOH-351,15/09/2025,call,technical_issue,Pending
+IOH-355,15/08/2025,call,technical_issue,Pending
+IOH-361,25/11/2025,call,technical_issue,Pending
+IOH-365,2025-10-28,call,billing_inquiry,Pending
+IOH-371,2025-10-01,call,technical_issue,Pending
+IOH-375,10/09/2025,call,technical_issue,Pending
+IOH-381,2025-11-11,call,technical_issue,Pending
+IOH-385,20/10/2025,call,billing_inquiry,Pending
+IOH-391,15/09/2025,call,technical_issue,Pending
+IOH-395,18/08/2025,call,technical_issue,Pending
+IOH-401,20/11/2025,call,technical_issue,Pending
+IOH-405,2025-11-01,call,billing_inquiry,Pending
+IOH-411,08/10/2025,call,technical_issue,Pending
+IOH-415,25/09/2025,call,technical_issue,Pending
+IOH-421,2025-11-12,call,technical_issue,Pending
+IOH-424,2025-10-25,chat,contract_question,Resolved
+IOH-426,2025-10-18,call,technical_issue,Pending
+IOH-428,11/11/2025,email,Billing Inquiry,Resolved
+IOH-430,2025-11-19,call,billing_inquiry,Pending
+IOH-432,2025-10-28,chat,contract_question,Resolved
+IOH-433,12/09/2025,call,billing_inquiry,Resolved
+IOH-434,20/11/2025,call,billing_inquiry,Pending
+IOH-436,2025-11-15,email,Billing Inquiry,Resolved
+IOH-438,2025-09-21,call,technical_issue,Pending
+IOH-441,18/08/2025,chat,billing_inquiry,Resolved
+IOH-443,2025-11-10,email,billing_inquiry,Resolved
+IOH-445,12/11/2025,chat,contract_question,Resolved
+IOH-447,2025-11-01,call,billing_inquiry,Pending
+IOH-450,2025-11-21,chat,Billing Inquiry,Resolved
+IOH-453,10/10/2025,call,technical_issue,Pending
+IOH-455,2025-11-17,email,contract_question,Resolved
+IOH-457,2025-11-08,chat,billing_inquiry,Resolved
+IOH-459,21/10/2025,call,Billing Inquiry,Resolved
+IOH-461,2025-09-15,call,technical_issue,Pending
+IOH-464,2025-11-22,chat,Technical Issue,Resolved
+IOH-466,12/11/2025,email,billing_inquiry,Resolved
+IOH-468,2025-11-18,call,contract_question,Pending
+IOH-471,2025-10-08,call,technical_issue,Pending
+IOH-473,25/09/2025,chat,Billing Inquiry,Resolved
+IOH-475,2025-11-06,email,contract_question,Resolved
+IOH-477,22/09/2025,call,technical_issue,Resolved
+IOH-477,2025-09-24,call,Technical Issue,Pending
+IOH-479,2025-11-11,chat,billing_inquiry,Resolved
+IOH-481,2025-11-02,call,technical_issue,Pending
+IOH-483,21/10/2025,email,contract_question,Resolved
+IOH-485,2025-11-13,chat,Billing Inquiry,Resolved
+IOH-488,24/10/2025,call,billing_inquiry,Pending
+IOH-491,12/10/2025,call,technical_issue,Pending
+IOH-493,2025-10-18,email,contract_question,Resolved
+IOH-495,20/09/2025,call,technical_issue,Pending
+IOH-498,2025-10-25,chat,billing_inquiry,Resolved
+IOH-501,2025-11-22,call,technical_issue,Pending
+IOH-505,28/10/2025,call,technical_issue,Pending
+IOH-511,12/09/2025,call,technical_issue,Resolved
+IOH-511,2025-09-14,call,Technical Issue,Pending
+IOH-515,28/07/2025,call,technical_issue,Pending
+IOH-521,2025-11-01,call,technical_issue,Pending
+IOH-525,10/10/2025,call,technical_issue,Pending
+IOH-531,2025-09-18,call,technical_issue,Pending
+IOH-535,10/08/2025,call,technical_issue,Pending
+IOH-541,2025-11-15,call,technical_issue,Pending
+IOH-545,20/10/2025,call,billing_inquiry,Pending
+IOH-551,15/09/2025,call,technical_issue,Pending
+IOH-555,15/08/2025,call,technical_issue,Pending
+IOH-561,25/11/2025,call,technical_issue,Pending
+IOH-565,2025-10-28,call,billing_inquiry,Pending
+IOH-571,2025-10-01,call,technical_issue,Pending
+IOH-575,10/09/2025,call,technical_issue,Pending
+IOH-581,2025-11-11,call,technical_issue,Pending
+IOH-585,20/10/2025,call,billing_inquiry,Pending
+IOH-591,15/09/2025,call,technical_issue,Pending
+IOH-595,18/08/2025,call,technical_issue,Pending
+IOH-601,20/11/2025,call,technical_issue,Pending
+IOH-605,2025-11-01,call,billing_inquiry,Pending
+IOH-611,08/10/2025,call,technical_issue,Pending
+IOH-615,25/09/2025,call,technical_issue,Pending
+IOH-621,2025-11-12,call,technical_issue,Pending
+IOH-624,2025-10-25,chat,contract_question,Resolved
+IOH-626,2025-10-18,call,technical_issue,Pending
+IOH-628,11/11/2025,email,Billing Inquiry,Resolved
+IOH-630,2025-11-19,call,billing_inquiry,Pending
+IOH-632,2025-10-28,chat,contract_question,Resolved
+IOH-633,12/09/2025,call,billing_inquiry,Resolved
+IOH-634,20/11/2025,call,billing_inquiry,Pending
+IOH-636,2025-11-15,email,Billing Inquiry,Resolved
+IOH-638,2025-09-21,call,technical_issue,Pending
+IOH-641,18/08/2025,chat,billing_inquiry,Resolved
+IOH-643,2025-11-10,email,billing_inquiry,Resolved
+IOH-645,12/11/2025,chat,contract_question,Resolved
+IOH-647,2025-11-01,call,billing_inquiry,Pending
+IOH-650,2025-11-21,chat,Billing Inquiry,Resolved
+IOH-653,10/10/2025,call,technical_issue,Pending
+IOH-655,2025-11-17,email,contract_question,Resolved
+IOH-657,2025-11-08,chat,billing_inquiry,Resolved
+IOH-659,21/10/2025,call,Billing Inquiry,Resolved
+IOH-661,2025-09-15,call,technical_issue,Pending
+IOH-664,2025-11-22,chat,Technical Issue,Resolved
+IOH-666,12/11/2025,email,billing_inquiry,Resolved
+IOH-668,2025-11-18,call,contract_question,Pending
+IOH-671,2025-10-08,call,technical_issue,Pending
+IOH-673,25/09/2025,chat,Billing Inquiry,Resolved
+IOH-675,2025-11-06,email,contract_question,Resolved
+IOH-677,22/09/2025,call,technical_issue,Resolved
+IOH-677,2025-09-24,call,Technical Issue,Pending
+IOH-679,2025-11-11,chat,billing_inquiry,Resolved
+IOH-681,2025-11-02,call,technical_issue,Pending
+IOH-683,21/10/2025,email,contract_question,Resolved
+IOH-685,2025-11-13,chat,Billing Inquiry,Resolved
+IOH-688,24/10/2025,call,billing_inquiry,Pending
+IOH-691,12/10/2025,call,technical_issue,Pending
+IOH-693,2025-10-18,email,contract_question,Resolved
+IOH-695,20/09/2025,call,technical_issue,Pending
+IOH-698,2025-10-25,chat,billing_inquiry,Resolved
+IOH-701,2025-11-22,call,technical_issue,Pending
+IOH-705,28/10/2025,call,technical_issue,Pending
+IOH-711,12/09/2025,call,technical_issue,Resolved
+IOH-711,2025-09-14,call,Technical Issue,Pending
+IOH-715,28/07/2025,call,technical_issue,Pending

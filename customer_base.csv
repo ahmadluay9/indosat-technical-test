@@ -1,0 +1,721 @@
+customerId,gender,age,partner,dependents,region,contractType,paperlessBilling,paymentMethod,churnDate
+IOH-001,Female,34,Yes,No,Jakarta,Month-to-month,Yes,Electronic check,2025-09-15
+IOH-002,Male,45,No,No,Surabaya,One year,No,Mailed check,
+IOH-003,Male,22,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-10-01
+IOH-004,Male,55,,No,Bandung,One year,No,Bank transfer (automatic),
+IOH-005,Female,25,No,No,bandung,Month-to-month,Yes,Electronic check,2025-06-20
+IOH-006,Female,39,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-007,Male,28,Yes,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-008,Female,41,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-009,Male,62,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-010,Female,29,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-08-11
+IOH-011,,31,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-012,Male,48,Yes,No,bandung,One year,Yes,Credit card (automatic),
+IOH-013,Female,24,No,No,JKT,Month-to-month,Yes,Electronic check,2025-10-22
+IOH-014,Male,65,Yes,Yes,Surabaya,Two year,Yes,Bank transfer (automatic),
+IOH-015,Male,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-07-30
+IOH-016,,52,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-017,Female,43,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-018,Male,21,No,No,Semarang,Month-to-month,Yes,Electronic check,2025-10-05
+IOH-019,Female,33,Yes,No,SBY,One year,Yes,Electronic check,
+IOH-020,Male,47,No,No,Bandung,Month-to-month,No,Mailed check,2025-09-28
+IOH-021,Female,36,,No,Jakarta,Month-to-month,Yes,Electronic check,
+IOH-022,Male,58,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-023,Female,23,No,No,Surabaya,Month-to-month,Yes,Electronic check,
+IOH-024,Male,37,Yes,No,Medan,One year,No,Mailed check,
+IOH-025,Female,29,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-11-01
+IOH-026,Male,42,Yes,Yes,Semarang,Two year,Yes,Bank transfer (automatic),
+IOH-027,Female,51,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-028,Male,27,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-029,Female,35,Yes,No,Surabaya,One year,Yes,Electronic check,
+IOH-030,Male,49,Yes,No,Bandung,Month-to-month,Yes,Electronic check,2025-04-18
+IOH-031,Female,22,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-09-05
+IOH-032,Male,38,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-033,Female,44,Yes,No,SBY,One year,No,Mailed check,
+IOH-034,,28,No,No,Semarang,Month-to-month,Yes,Electronic check,
+IOH-035,Male,56,No,No,Medan,One year,No,Bank transfer (automatic),
+IOH-036,Female,25,No,No,bdg,Month-to-month,Yes,Electronic check,2025-10-12
+IOH-037,Male,33,Yes,Yes,Jakarta,One year,Yes,Credit card (automatic),
+IOH-038,Female,29,Yes,No,Surabaya,Month-to-month,No,Mailed check,
+IOH-039,Male,61,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-040,Female,21,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-08-22
+IOH-041,Male,49,,Yes,Medan,Two year,No,Mailed check,
+IOH-042,Female,32,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-043,Male,53,Yes,No,Semarang,One year,Yes,Credit card (automatic),
+IOH-044,Female,26,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-03
+IOH-045,Male,47,Yes,Yes,Bandung,Two year,No,Bank transfer (automatic),
+IOH-046,Female,30,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-047,Male,59,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-048,Female,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-07-14
+IOH-049,Male,36,Yes,No,Surabaya,One year,Yes,Electronic check,
+IOH-050,Female,46,No,Yes,Jakarta,One year,No,Mailed check,
+IOH-051,Male,23,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-06-25
+IOH-052,Female,54,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-053,,27,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-054,Male,63,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-055,Female,31,Yes,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-056,Male,41,Yes,No,Medan,One year,No,Mailed check,
+IOH-057,Female,28,No,No,jakarta,Month-to-month,Yes,Electronic check,2025-09-18
+IOH-058,Male,50,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-059,Female,34,Yes,Yes,Surabaya,Two year,Yes,Electronic check,
+IOH-060,Male,26,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-061,Female,48,No,No,Semarang,One year,No,Mailed check,
+IOH-062,Male,57,,Yes,Medan,Two year,No,Bank transfer (automatic),
+IOH-063,Female,22,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-29
+IOH-064,Male,39,Yes,No,Jakarta,One year,Yes,Credit card (automatic),
+IOH-065,Female,30,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-066,Male,64,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-067,Female,25,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-068,Male,45,Yes,Yes,bdg,Two year,No,Credit card (automatic),
+IOH-069,Female,33,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-070,Male,51,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-071,Female,27,No,No,Surabaya,Month-to-month,Yes,Electronic check,2025-08-08
+IOH-072,Male,43,,No,Medan,One year,No,Mailed check,
+IOH-073,Female,35,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-074,Male,29,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-075,Female,55,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-076,Male,31,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-077,Female,49,Yes,Yes,Jakarta,One year,Yes,Electronic check,
+IOH-078,Male,24,No,No,JKT,Month-to-month,Yes,Electronic check,2025-09-21
+IOH-079,Female,60,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-080,Male,37,Yes,No,Semarang,Two year,Yes,Credit card (automatic),
+IOH-081,Female,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-10-15
+IOH-082,Male,46,,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-083,Female,32,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-084,Male,52,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-085,Female,28,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-086,Male,40,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-087,Female,36,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-07-25
+IOH-088,Male,54,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-089,Female,29,Yes,No,Bandung,Month-to-month,No,Mailed check,
+IOH-090,Male,62,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-091,Female,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-08-30
+IOH-092,Male,44,,Yes,Surabaya,Two year,No,Credit card (automatic),
+IOH-093,Female,31,Yes,No,jakarta,One year,Yes,Electronic check,
+IOH-094,Male,56,Yes,Yes,bdg,Two year,No,Mailed check,
+IOH-095,Female,27,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-096,Male,38,Yes,No,Medan,Month-to-month,No,Bank transfer (automatic),
+IOH-097,Female,33,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-098,Male,25,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-099,Female,47,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-100,Male,59,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-101,Female,21,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-05
+IOH-102,Male,42,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-103,Female,34,Yes,No,jakarta,One year,No,Mailed check,
+IOH-104,Male,53,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-105,Female,29,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-11
+IOH-106,,30,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-107,Male,48,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-108,Female,24,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-109,Male,39,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-110,Female,51,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-111,Male,22,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-02
+IOH-112,Female,41,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-113,Male,35,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-114,Female,57,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-115,Male,28,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-15
+IOH-116,Female,44,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-117,Male,32,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-118,Female,50,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-119,Male,26,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-120,Female,61,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-121,Male,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-29
+IOH-122,Female,46,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-123,Male,36,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-124,Female,55,Yes,Yes,bdg,Two year,No,Mailed check,
+IOH-125,Male,29,Yes,No,SBY,One year,Yes,Electronic check,
+IOH-1pictures,Female,43,Yes,Yes,Medan,Two year,No,Bank transfer (automatic),
+IOH-127,Male,30,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-07-07
+IOH-128,Female,49,Yes,Yes,Bandung,Two year,Yes,Credit card (automatic),
+IOH-129,Male,27,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-130,Female,58,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-131,Female,22,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-10-18
+IOH-132,Male,49,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-133,Female,37,Yes,No,jakarta,One year,No,Mailed check,
+IOH-134,Male,28,No,No,Semarang,Month-to-month,Yes,Electronic check,
+IOH-135,Female,58,No,No,Medan,One year,No,Bank transfer (automatic),
+IOH-136,Male,26,No,No,bdg,Month-to-month,Yes,Electronic check,2025-09-14
+IOH-137,Female,34,Yes,Yes,Jakarta,One year,Yes,Credit card (automatic),
+IOH-138,Male,30,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-139,Female,63,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-140,Male,24,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-10
+IOH-141,,51,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-142,Female,33,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-143,Male,55,Yes,No,Semarang,One year,Yes,Credit card (automatic),
+IOH-144,Female,27,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-25
+IOH-145,Male,48,Yes,Yes,Bandung,Two year,No,Bank transfer (automatic),
+IOH-146,Female,31,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-147,Male,60,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-148,Female,25,No,No,bandung,Month-to-month,Yes,Electronic check,2025-08-19
+IOH-149,Male,38,Yes,No,Surabaya,One year,Yes,Electronic check,
+IOH-150,Female,48,No,Yes,Jakarta,One year,No,Mailed check,
+IOH-151,Male,21,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-07-15
+IOH-152,Female,56,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-153,Male,29,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-154,Female,65,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-155,Male,32,Yes,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-156,Female,43,Yes,No,Medan,One year,No,Mailed check,
+IOH-157,Male,27,No,No,jakarta,Month-to-month,Yes,Electronic check,2025-10-28
+IOH-158,Female,52,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-159,Male,36,Yes,Yes,Surabaya,Two year,Yes,Electronic check,
+IOH-160,Female,24,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-161,Male,49,No,No,Semarang,One year,No,Mailed check,
+IOH-162,Female,59,,Yes,Medan,Two year,No,Bank transfer (automatic),
+IOH-163,Male,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-30
+IOH-164,Female,40,Yes,No,Jakarta,One year,Yes,Credit card (automatic),
+IOH-165,Male,31,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-166,Female,66,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-167,Male,26,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-168,Female,47,Yes,Yes,bdg,Two year,No,Credit card (automatic),
+IOH-169,Male,35,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-170,Female,53,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-171,Male,28,No,No,Surabaya,Month-to-month,Yes,Electronic check,2025-11-08
+IOH-172,,45,Yes,No,Medan,One year,No,Mailed check,
+IOH-173,Male,37,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-174,Female,30,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-175,Male,57,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-176,Female,33,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-177,Male,50,Yes,Yes,Jakarta,One year,Yes,Electronic check,
+IOH-178,Female,22,No,No,JKT,Month-to-month,Yes,Electronic check,2025-10-10
+IOH-179,Male,62,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-180,Female,39,Yes,No,Semarang,Two year,Yes,Credit card (automatic),
+IOH-181,Male,25,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-09-01
+IOH-182,Female,48,,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-183,Male,34,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-184,Female,54,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-185,Male,29,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-186,Female,42,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-187,Male,38,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-08-25
+IOH-188,Female,56,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-189,Male,30,Yes,No,Bandung,Month-to-month,No,Mailed check,
+IOH-190,Female,64,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-191,Male,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-05
+IOH-192,Female,46,,Yes,Surabaya,Two year,No,Credit card (automatic),
+IOH-193,Male,33,Yes,No,jakarta,One year,Yes,Electronic check,
+IOH-194,Female,58,Yes,Yes,bdg,Two year,No,Mailed check,
+IOH-195,Male,28,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-196,Female,40,Yes,No,Medan,Month-to-month,No,Bank transfer (automatic),
+IOH-197,Male,35,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-198,Female,26,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-199,Male,49,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-200,Female,61,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-201,Male,22,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-12
+IOH-202,Female,44,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-203,Male,36,Yes,No,jakarta,One year,No,Mailed check,
+IOH-204,Female,55,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-205,Male,30,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-19
+IOH-206,,31,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-207,Female,50,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-208,Male,23,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-209,Female,41,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-210,Male,53,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-211,Female,25,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-09
+IOH-212,Male,43,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-213,Female,37,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-214,Male,59,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-215,Female,29,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-28
+IOH-216,Male,45,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-217,Female,34,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-218,Male,52,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-219,Female,27,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-220,Male,63,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-221,Male,24,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-15
+IOH-222,Female,48,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-223,Male,38,Yes,No,jakarta,One year,No,Mailed check,
+IOH-224,Female,29,No,No,Semarang,Month-to-month,Yes,Electronic check,
+IOH-225,Male,60,No,No,Medan,One year,No,Bank transfer (automatic),
+IOH-226,Female,27,No,No,bdg,Month-to-month,Yes,Electronic check,2025-10-20
+IOH-227,Male,35,Yes,Yes,Jakarta,One year,Yes,Credit card (automatic),
+IOH-228,Female,31,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-229,Male,65,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-230,Female,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-22
+IOH-231,,53,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-232,Male,34,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-233,Female,57,Yes,No,Semarang,One year,Yes,Credit card (automatic),
+IOH-234,Male,28,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-28
+IOH-235,Female,50,Yes,Yes,Bandung,Two year,No,Bank transfer (automatic),
+IOH-236,Male,32,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-237,Female,62,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-238,Male,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-25
+IOH-239,Female,40,Yes,No,Surabaya,One year,Yes,Electronic check,
+IOH-240,Male,50,No,Yes,Jakarta,One year,No,Mailed check,
+IOH-241,Female,22,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-08-21
+IOH-242,Male,58,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-243,Female,30,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-244,Male,67,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-245,Female,33,Yes,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-246,Male,45,Yes,No,Medan,One year,No,Mailed check,
+IOH-247,Female,29,No,No,jakarta,Month-to-month,Yes,Electronic check,2025-11-02
+IOH-248,Male,54,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-249,Female,38,Yes,Yes,Surabaya,Two year,Yes,Electronic check,
+IOH-250,Male,25,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-251,Female,51,No,No,Semarang,One year,No,Mailed check,
+IOH-252,Male,61,,Yes,Medan,Two year,No,Bank transfer (automatic),
+IOH-253,Female,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-14
+IOH-254,Male,42,Yes,No,Jakarta,One year,Yes,Credit card (automatic),
+IOH-255,Female,32,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-256,Male,68,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-257,Female,27,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-258,Male,49,Yes,Yes,bdg,Two year,No,Credit card (automatic),
+IOH-259,Female,37,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-260,Male,55,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-261,Female,30,No,No,Surabaya,Month-to-month,Yes,Electronic check,2025-09-19
+IOH-262,,47,Yes,No,Medan,One year,No,Mailed check,
+IOH-263,Male,39,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-264,Female,31,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-265,Male,59,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-266,Female,35,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-267,Male,52,Yes,Yes,Jakarta,One year,Yes,Electronic check,
+IOH-268,Female,23,No,No,JKT,Month-to-month,Yes,Electronic check,2025-11-20
+IOH-269,Male,64,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-270,Female,41,Yes,No,Semarang,Two year,Yes,Credit card (automatic),
+IOH-271,Male,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-10-11
+IOH-272,Female,50,,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-273,Male,36,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-274,Female,56,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-275,Male,30,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-276,Female,44,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-277,Male,40,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-09-26
+IOH-278,Female,58,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-279,Male,32,Yes,No,Bandung,Month-to-month,No,Mailed check,
+IOH-280,Female,66,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-281,Male,25,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-06
+IOH-282,Female,48,,Yes,Surabaya,Two year,No,Credit card (automatic),
+IOH-283,Male,35,Yes,No,jakarta,One year,Yes,Electronic check,
+IOH-284,Female,60,Yes,Yes,bdg,Two year,No,Mailed check,
+IOH-285,Male,29,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-286,Female,42,Yes,No,Medan,Month-to-month,No,Bank transfer (automatic),
+IOH-287,Male,37,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-288,Female,28,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-289,Male,51,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-290,Female,63,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-291,Male,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-16
+IOH-292,Female,46,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-293,Male,31,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-294,Female,54,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-295,Male,27,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-24
+IOH-296,Female,43,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-297,Male,34,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-298,Female,56,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-299,Male,28,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-300,Female,65,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-301,Male,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-25
+IOH-302,Female,45,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-303,Male,37,Yes,No,jakarta,One year,No,Mailed check,
+IOH-304,Female,57,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-305,Male,31,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-31
+IOH-306,,32,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-307,Female,52,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-308,Male,24,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-309,Female,43,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-310,Male,55,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-311,Female,26,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-16
+IOH-312,Male,45,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-313,Female,39,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-314,Male,61,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-315,Female,30,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-01
+IOH-316,Male,47,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-317,Female,36,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-318,Male,54,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-319,Female,29,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-320,Male,67,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-321,Male,25,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-04
+IOH-322,Female,49,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-323,Male,38,Yes,No,jakarta,One year,No,Mailed check,
+IOH-324,Female,59,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-325,Male,33,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-13
+IOH-326,Female,34,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-327,Male,51,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-328,Female,22,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-329,Male,42,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-330,Female,56,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-331,Male,27,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-22
+IOH-332,Female,47,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-333,Male,40,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-334,Female,62,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-335,Male,31,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-11
+IOH-336,Female,48,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-337,Male,38,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-338,Female,53,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-339,Male,30,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-340,Female,68,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-341,Female,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-18
+IOH-342,Male,50,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-343,Female,39,Yes,No,jakarta,One year,No,Mailed check,
+IOH-344,Male,60,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-345,Female,34,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-24
+IOH-346,,35,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-347,Male,53,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-348,Female,24,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-349,Male,44,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-350,Female,58,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-351,Male,28,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-08
+IOH-352,Female,49,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-353,Male,41,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-354,Female,63,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-355,Male,32,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-18
+IOH-356,Female,50,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-357,Male,40,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-358,Female,55,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-359,Male,31,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-360,Female,69,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-361,Male,27,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-28
+IOH-362,Female,52,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-363,Male,41,Yes,No,jakarta,One year,No,Mailed check,
+IOH-364,Female,61,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-365,Male,35,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-01
+IOH-366,,36,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-367,Female,54,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-368,Male,25,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-369,Female,46,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-370,Male,60,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-371,Female,29,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-04
+IOH-372,Male,51,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-373,Female,42,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-374,Male,64,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-375,Female,33,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-12
+IOH-376,Male,52,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-377,Female,42,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-378,Male,57,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-379,Female,32,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-380,Male,70,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-381,Female,28,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-14
+IOH-382,Male,53,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-383,Female,43,Yes,No,jakarta,One year,No,Mailed check,
+IOH-384,Male,62,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-385,Female,36,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-21
+IOH-386,Male,37,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-387,Female,56,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-388,Male,26,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-389,Female,48,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-390,Male,61,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-391,Female,30,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-18
+IOH-392,Male,53,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-393,Female,44,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-394,Male,65,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-395,Female,34,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-22
+IOH-396,Male,54,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-397,Female,44,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-398,Male,59,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-399,Female,33,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-400,Male,72,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-401,Female,29,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-23
+IOH-402,Male,55,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-403,Female,45,Yes,No,jakarta,One year,No,Mailed check,
+IOH-404,Male,63,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-405,Female,37,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-03
+IOH-406,,38,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-407,Female,58,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-408,Male,27,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-409,Female,50,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-410,Male,62,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-411,Female,31,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-12
+IOH-412,Male,55,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-413,Female,46,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-414,Male,66,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-415,Female,35,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-28
+IOH-416,Male,56,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-417,Female,46,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-418,Male,60,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-419,Female,34,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-420,Male,71,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-421,Male,24,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-15
+IOH-422,Female,48,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-423,Male,38,Yes,No,jakarta,One year,No,Mailed check,
+IOH-424,Female,21,No,No,Semarang,Month-to-month,Yes,Electronic check,2025-10-29
+IOH-425,Male,68,Yes,No,Medan,Two year,No,Mailed check,
+IOH-426,Female,27,No,No,bdg,Month-to-month,Yes,Electronic check,2025-10-20
+IOH-427,Male,35,Yes,Yes,Jakarta,One year,Yes,Credit card (automatic),
+IOH-428,Female,31,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-429,Male,65,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-430,Female,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-22
+IOH-431,,53,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-432,Male,34,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-433,Female,20,No,No,Semarang,Month-to-month,Yes,Electronic check,2025-09-15
+IOH-434,Male,28,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-28
+IOH-435,Female,50,Yes,Yes,Bandung,Two year,No,Bank transfer (automatic),
+IOH-436,Male,32,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-437,Female,62,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-438,Male,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-25
+IOH-439,Female,40,Yes,No,Surabaya,One year,Yes,Electronic check,
+IOH-440,Male,50,No,Yes,Jakarta,One year,No,Mailed check,
+IOH-441,Female,70,Yes,Yes,Medan,One year,No,Mailed check,
+IOH-442,Male,58,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-443,Female,30,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-444,Male,67,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-445,Female,33,Yes,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-446,Male,45,Yes,No,Medan,One year,No,Mailed check,
+IOH-447,Female,29,No,No,jakarta,Month-to-month,Yes,Electronic check,2025-11-02
+IOH-448,Male,54,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-449,Female,38,Yes,Yes,Surabaya,Two year,Yes,Electronic check,
+IOH-450,Male,25,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-451,Female,45,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-452,Male,61,,Yes,Medan,Two year,No,Bank transfer (automatic),
+IOH-453,Female,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-14
+IOH-454,Male,42,Yes,No,Jakarta,One year,Yes,Credit card (automatic),
+IOH-455,Female,32,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-456,Male,68,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-457,Female,27,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-458,Male,49,Yes,Yes,bdg,Two year,No,Credit card (automatic),
+IOH-459,Female,37,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-460,Male,55,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-461,Female,22,No,No,Surabaya,Month-to-month,Yes,Electronic check,2025-09-19
+IOH-462,,47,Yes,No,Medan,One year,No,Mailed check,
+IOH-463,Male,39,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-464,Female,31,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-465,Male,59,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-466,Female,35,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-467,Male,52,Yes,Yes,Jakarta,One year,Yes,Electronic check,
+IOH-468,Female,23,No,No,JKT,Month-to-month,Yes,Electronic check,2025-11-20
+IOH-469,Male,64,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-470,Female,41,Yes,No,Semarang,Two year,Yes,Credit card (automatic),
+IOH-471,Male,19,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-10-11
+IOH-472,Female,50,,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-473,Male,36,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-474,Female,56,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-475,Male,30,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-476,Female,44,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-477,Male,40,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-09-26
+IOH-478,Female,58,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-479,Male,32,Yes,No,Bandung,Month-to-month,No,Mailed check,
+IOH-480,Female,66,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-481,Male,25,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-06
+IOH-482,Female,48,,Yes,Surabaya,Two year,No,Credit card (automatic),
+IOH-483,Male,35,Yes,No,jakarta,One year,Yes,Electronic check,
+IOH-484,Female,60,Yes,Yes,bdg,Two year,No,Mailed check,
+IOH-485,Male,29,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-486,Female,42,Yes,No,Medan,Month-to-month,No,Bank transfer (automatic),
+IOH-487,Male,37,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-488,Female,28,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-489,Male,51,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-490,Female,63,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-491,Male,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-16
+IOH-492,Female,46,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-493,Male,31,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-494,Female,54,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-495,Male,27,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-24
+IOH-496,Female,43,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-497,Male,34,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-498,Female,56,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-499,Male,28,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-500,Female,65,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-501,Male,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-25
+IOH-502,Female,45,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-503,Male,37,Yes,No,jakarta,One year,No,Mailed check,
+IOH-504,Female,57,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-505,Male,31,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-31
+IOH-506,,32,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-507,Female,52,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-508,Male,24,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-509,Female,43,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-510,Male,55,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-511,Female,26,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-16
+IOH-512,Male,45,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-513,Female,39,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-514,Male,61,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-515,Female,30,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-01
+IOH-516,Male,47,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-517,Female,36,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-518,Male,54,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-519,Female,29,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-520,Male,67,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-521,Male,25,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-04
+IOH-522,Female,49,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-523,Male,38,Yes,No,jakarta,One year,No,Mailed check,
+IOH-524,Female,59,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-525,Male,33,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-13
+IOH-526,Female,34,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-527,Male,51,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-528,Female,22,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-529,Male,42,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-530,Female,56,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-531,Male,27,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-22
+IOH-532,Female,47,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-533,Male,40,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-534,Female,62,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-535,Male,31,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-11
+IOH-536,Female,48,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-537,Male,38,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-538,Female,53,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-539,Male,30,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-540,Female,68,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-541,Female,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-18
+IOH-542,Male,50,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-543,Female,39,Yes,No,jakarta,One year,No,Mailed check,
+IOH-544,Male,60,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-545,Female,34,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-24
+IOH-546,,35,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-547,Male,53,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-548,Female,24,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-549,Male,44,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-550,Female,58,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-551,Male,28,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-08
+IOH-552,Female,49,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-553,Male,41,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-554,Female,63,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-555,Male,32,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-18
+IOH-556,Female,50,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-557,Male,40,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-558,Female,55,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-559,Male,31,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-560,Female,69,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-561,Male,27,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-28
+IOH-562,Female,52,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-563,Male,41,Yes,No,jakarta,One year,No,Mailed check,
+IOH-564,Female,61,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-565,Male,35,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-01
+IOH-566,,36,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-567,Female,54,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-568,Male,25,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-569,Female,46,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-570,Male,60,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-571,Female,29,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-04
+IOH-572,Male,51,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-573,Female,42,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-574,Male,64,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-575,Female,33,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-12
+IOH-576,Male,52,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-577,Female,42,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-578,Male,57,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-579,Female,32,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-580,Male,70,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-581,Female,28,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-14
+IOH-582,Male,53,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-583,Female,43,Yes,No,jakarta,One year,No,Mailed check,
+IOH-584,Male,62,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-585,Female,36,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-21
+IOH-586,Male,37,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-587,Female,56,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-588,Male,26,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-589,Female,48,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-590,Male,61,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-591,Female,30,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-18
+IOH-592,Male,53,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-593,Female,44,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-594,Male,65,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-595,Female,34,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-22
+IOH-596,Male,54,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-597,Female,44,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-598,Male,59,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-599,Female,33,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-600,Male,72,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-601,Female,29,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-23
+IOH-602,Male,55,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-603,Female,45,Yes,No,jakarta,One year,No,Mailed check,
+IOH-604,Male,63,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-605,Female,37,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-03
+IOH-606,,38,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-607,Female,58,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-608,Male,27,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-609,Female,50,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-610,Male,62,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-611,Female,31,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-12
+IOH-612,Male,55,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-613,Female,46,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-614,Male,66,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-615,Female,35,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-28
+IOH-616,Male,56,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-617,Female,46,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-618,Male,60,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-619,Female,34,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-620,Male,71,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-621,Female,22,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-15
+IOH-622,Male,48,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-623,Female,38,Yes,No,jakarta,One year,No,Mailed check,
+IOH-624,Male,21,No,No,Semarang,Month-to-month,Yes,Electronic check,2025-10-29
+IOH-625,Female,68,Yes,No,Medan,Two year,No,Mailed check,
+IOH-626,Male,27,No,No,bdg,Month-to-month,Yes,Electronic check,2025-10-20
+IOH-627,Female,35,Yes,Yes,Jakarta,One year,Yes,Credit card (automatic),
+IOH-628,Male,31,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-629,Female,65,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-630,Male,26,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-11-22
+IOH-631,,53,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-632,Female,34,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-633,Male,20,No,No,Semarang,Month-to-month,Yes,Electronic check,2025-09-15
+IOH-634,Female,28,No,No,SBY,Month-to-month,Yes,Electronic check,2025-11-28
+IOH-635,Male,50,Yes,Yes,Bandung,Two year,No,Bank transfer (automatic),
+IOH-636,Female,32,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-637,Male,62,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-638,Female,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-25
+IOH-639,Male,40,Yes,No,Surabaya,One year,Yes,Electronic check,
+IOH-640,Female,50,No,Yes,Jakarta,One year,No,Mailed check,
+IOH-641,Male,70,Yes,Yes,Medan,One year,No,Mailed check,
+IOH-642,Female,58,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-643,Male,30,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-644,Female,67,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-645,Male,33,Yes,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-646,Female,45,Yes,No,Medan,One year,No,Mailed check,
+IOH-647,Male,29,No,No,jakarta,Month-to-month,Yes,Electronic check,2025-11-02
+IOH-648,Female,54,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-649,Male,38,Yes,Yes,Surabaya,Two year,Yes,Electronic check,
+IOH-650,Female,25,No,No,JKT,Month-to-month,Yes,Electronic check,
+IOH-651,Male,45,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-652,Female,61,,Yes,Medan,Two year,No,Bank transfer (automatic),
+IOH-653,Male,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-14
+IOH-654,Female,42,Yes,No,Jakarta,One year,Yes,Credit card (automatic),
+IOH-655,Male,32,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-656,Female,68,Yes,Yes,Jakarta,Two year,Yes,Bank transfer (automatic),
+IOH-657,Male,27,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-658,Female,49,Yes,Yes,bdg,Two year,No,Credit card (automatic),
+IOH-659,Male,37,No,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-660,Female,55,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-661,Male,22,No,No,Surabaya,Month-to-month,Yes,Electronic check,2025-09-19
+IOH-662,,47,Yes,No,Medan,One year,No,Mailed check,
+IOH-663,Female,39,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-664,Male,31,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-665,Female,59,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-666,Male,35,Yes,No,SBY,Month-to-month,No,Mailed check,
+IOH-667,Female,52,Yes,Yes,Jakarta,One year,Yes,Electronic check,
+IOH-668,Male,23,No,No,JKT,Month-to-month,Yes,Electronic check,2025-11-20
+IOH-669,Female,64,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-670,Male,41,Yes,No,Semarang,Two year,Yes,Credit card (automatic),
+IOH-671,Female,19,No,No,Bandung,Month-to-month,Yes,Electronic check,2025-10-11
+IOH-672,Male,50,,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-673,Female,36,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-674,Male,56,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-675,Female,30,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-676,Male,44,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-677,Female,40,No,No,Jakarta,Month-to-month,Yes,Electronic check,2025-09-26
+IOH-678,Male,58,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-679,Female,32,Yes,No,Bandung,Month-to-month,No,Mailed check,
+IOH-680,Male,66,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-681,Female,25,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-06
+IOH-682,Male,48,,Yes,Surabaya,Two year,No,Credit card (automatic),
+IOH-683,Female,35,Yes,No,jakarta,One year,Yes,Electronic check,
+IOH-684,Male,60,Yes,Yes,bdg,Two year,No,Mailed check,
+IOH-685,Female,29,No,No,SBY,Month-to-month,Yes,Electronic check,
+IOH-686,Male,42,Yes,No,Medan,Month-to-month,No,Bank transfer (automatic),
+IOH-687,Female,37,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-688,Male,28,No,No,Bandung,Month-to-month,Yes,Electronic check,
+IOH-689,Female,51,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-690,Male,63,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-691,Female,24,No,No,bandung,Month-to-month,Yes,Electronic check,2025-10-16
+IOH-692,Male,46,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-693,Female,31,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-694,Male,54,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-695,Female,27,No,No,SBY,Month-to-month,Yes,Electronic check,2025-09-24
+IOH-696,Male,43,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-697,Female,34,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-698,Male,56,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-699,Female,28,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-700,Male,65,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),
+IOH-701,Female,23,No,No,bandung,Month-to-month,Yes,Electronic check,2025-11-25
+IOH-702,Male,45,Yes,Yes,Surabaya,Two year,Yes,Credit card (automatic),
+IOH-703,Female,37,Yes,No,jakarta,One year,No,Mailed check,
+IOH-704,Male,57,Yes,Yes,bdg,Two year,No,Bank transfer (automatic),
+IOH-705,Female,31,No,No,SBY,Month-to-month,Yes,Electronic check,2025-10-31
+IOH-706,,32,No,No,Medan,Month-to-month,Yes,Electronic check,
+IOH-707,Male,52,Yes,Yes,Jakarta,Two year,Yes,Credit card (automatic),
+IOH-708,Female,24,No,No,Bandung,Month-to-month,No,Electronic check,
+IOH-709,Male,43,Yes,No,Semarang,One year,Yes,Electronic check,
+IOH-710,Female,55,Yes,Yes,JKT,Two year,No,Mailed check,
+IOH-711,Male,26,No,No,bandung,Month-to-month,Yes,Electronic check,2025-09-16
+IOH-712,Female,45,No,Yes,Surabaya,One year,No,Bank transfer (automatic),
+IOH-713,Male,39,Yes,No,jakarta,Month-to-month,Yes,Electronic check,
+IOH-714,Female,61,Yes,Yes,bdg,Two year,Yes,Credit card (automatic),
+IOH-715,Male,30,No,No,SBY,Month-to-month,Yes,Electronic check,2025-08-01
+IOH-716,Female,47,Yes,Yes,Medan,Two year,No,Mailed check,
+IOH-717,Male,36,Yes,No,Jakarta,One year,Yes,Electronic check,
+IOH-718,Female,54,Yes,Yes,Bandung,Two year,No,Credit card (automatic),
+IOH-719,Male,29,No,No,Semarang,Month-to-month,No,Electronic check,
+IOH-720,Female,67,Yes,Yes,JKT,Two year,Yes,Bank transfer (automatic),

@@ -1,0 +1,31 @@
+horizon,feature,importance
+Model A: Structural,tenureMonths,0.20978247216766638
+Model A: Structural,is_onboarding_le3,0.1365061247005081
+Model A: Structural,charge_per_gb,0.08281278753805744
+Model A: Structural,monthlyCharges,0.07915743376920249
+Model A: Structural,dataUsageGB,0.07187605113758373
+Model A: Structural,is_early_tenure_le12,0.0689800245249665
+Model A: Structural,usage_vs_tier_ratio,0.05311452785152353
+Model A: Structural,is_mtm,0.051692931434454886
+Model A: Structural,contractType_Month-to-month,0.039763822066519516
+Model A: Structural,hasInternetService_Fiber optic,0.03640474263038067
+Model A: Structural,charge_vs_tier_ratio,0.02393904901129169
+Model A: Structural,is_echeck,0.018392890610364157
+Model A: Structural,paymentMethod_Electronic check,0.01747233565523298
+Model A: Structural,paperlessBilling_No,0.01727703626457242
+Model A: Structural,hasInternetService_DSL,0.01424811134987096
+Model B: Acute Point-in-Time,last_status_Pending,0.1531441798930508
+Model B: Acute Point-in-Time,has_pending,0.14622542118831106
+Model B: Acute Point-in-Time,n_pending,0.14417874837611488
+Model B: Acute Point-in-Time,tenureMonths,0.07370866971003998
+Model B: Acute Point-in-Time,n_tech,0.06239441230647498
+Model B: Acute Point-in-Time,last_topic_technical_issue,0.054904954947489155
+Model B: Acute Point-in-Time,n_pending_tech,0.05315313366513194
+Model B: Acute Point-in-Time,is_onboarding_le3,0.04355771185400719
+Model B: Acute Point-in-Time,n_tickets,0.03025802463513628
+Model B: Acute Point-in-Time,has_ticket,0.02919219501482145
+Model B: Acute Point-in-Time,last_status_Resolved,0.02207488790250919
+Model B: Acute Point-in-Time,last_topic_none,0.019657134570892007
+Model B: Acute Point-in-Time,monthlyCharges,0.01842225523334085
+Model B: Acute Point-in-Time,is_early_tenure_le12,0.018201756608867633
+Model B: Acute Point-in-Time,last_status_none,0.01752066173053961

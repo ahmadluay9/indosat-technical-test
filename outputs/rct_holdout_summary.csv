@@ -1,0 +1,8 @@
+exploration_bucket,executed_treatment,action_propensity,n_customers,n_active,n_historical_churn
+TIER_0_DO_NOT_ACT,NONE,1.0,488,488,0
+EXEMPT_MANDATORY_REMEDIATION (No Holdout),PREMIUM,1.0,97,0,97
+TIER_0_BORDER_CONTROL_95PCT (Below-Threshold Control),NONE,0.95,61,59,2
+EXPLOIT_90PCT_POLICY (10% RCT Holdout Eligible),PREMIUM,0.9,60,17,43
+HOLDOUT_CONTROL_10PCT (Commercial Offer Withheld for RCT),CONTROL_HOLDOUT,0.1,7,4,3
+BELOW_THRESHOLD_DIAGNOSTIC_PROBE_5PCT (Border/Month-1 Probe),DIAGNOSTIC_ONBOARDING_NUDGE,0.05,5,5,0
+EXEMPT_MANDATORY_REMEDIATION (No Holdout),BASIC,1.0,1,1,0

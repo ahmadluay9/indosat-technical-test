@@ -1,0 +1,8 @@
+ablation_model,overall_roc_auc,overall_pr_auc,overall_brier_score,active_rule3_noticket_n,active_rule3_noticket_fiber_pct,active_rule3_noticket_mean_p,active_rule3_noticket_n_ge_1667,active_rule3_with_ticket_n,active_rule3_with_ticket_fiber_pct,active_rule3_with_ticket_mean_p,active_rule3_with_ticket_n_ge_1667,churned_rule3_n,churned_rule3_fiber_pct,churned_rule3_mean_p,churned_rule3_n_ge_1667
+"1. Model A Full (Profile + Usage/Spend, Zero Ticket Features)",0.991,0.9698,0.0282,51,0.0,0.0512,0,71,54.9,0.1974,22,144,94.4,0.8246,137
+1b. Model A Modulo-200 StratifiedGroupKFold (Strict Clone Holdout),0.9948,0.981,0.0243,51,0.0,0.064,1,71,54.9,0.1995,23,144,94.4,0.8432,141
+1c. Model A Modulo-200 Unstratified GroupKFold (Strict Clone Holdout),0.9837,0.9417,0.0383,51,0.0,0.1007,15,71,54.9,0.2815,39,144,94.4,0.7837,136
+"2. Model A Ablation (Contract/Service/Region Only - No Usage/Spend, No Tickets)",0.9857,0.9382,0.0286,51,0.0,0.056,0,71,54.9,0.2056,20,144,94.4,0.8251,137
+3. Model B Ablation (Struct + Ticket Count/Topic Only - No Pending Status),0.9937,0.9768,0.0255,51,0.0,0.0408,0,71,54.9,0.1973,19,144,94.4,0.8379,140
+4. Model B Full (Struct + All Pre-Churn Ticket Features incl. Pending),0.997,0.9895,0.017,51,0.0,0.045,0,71,54.9,0.1069,13,144,94.4,0.8814,140
+5. Production Composite (0.30 * Model A + 0.70 * Model B),0.9969,0.9891,0.0184,51,0.0,0.0469,0,71,54.9,0.1341,16,144,94.4,0.8644,142
